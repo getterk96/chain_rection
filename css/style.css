@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    margin:auto;
+    height: 97%;
+    width: 100%;
+    background: url(../img/b.png);
+    display: flex;
+    flex-direction: column;
+}
+
+#gaming{
+    position: absolute;
+    z-index: 1;
+}
+
+#background{
+    position: absolute;
+    z-index: 0;
+}
+
+#effects{
+    position: absolute;
+    z-index: 3;
+}
+
+#function{
+    position: absolute;
+    z-index: 2;
+}
+
+#start{
+    position: absolute;
+    z-index: 3;
+}
+
+pre{
+    white-space:pre-wrap;
+    white-space:-moz-pre-wrap;
+    white-space:pre-wrap;
+    white-space:-o-pre-wrap;
+    word-wrap:break-word;
+}
+
+footer{
+    text-align: center;
+    height: 3%;
+    background: #c4c4c4;
+}
